@@ -8,5 +8,5 @@ btn.addEventListener("click", () => {
 })
 
 input.addEventListener("blur", () => {
-    search.classList.toggle("active");
+    search.classList.remove("active");
 })
